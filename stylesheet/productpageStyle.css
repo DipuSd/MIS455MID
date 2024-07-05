@@ -46,6 +46,7 @@ main p {
 .product-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 .product-items {
   background-color: gray;
@@ -53,7 +54,7 @@ main p {
   padding: 10px;
   padding-bottom: 30px;
   transition: box-shadow 450ms ease-in-out;
-  cursor: pointer;
+  cursor: pointergi;
 }
 .product-items:hover {
   box-shadow: 2px 2px 5px gray;
