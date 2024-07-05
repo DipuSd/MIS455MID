@@ -30,10 +30,11 @@ footer {
 main h1 {
   text-align: center;
   background-color: rgba(72, 72, 72, 0.3);
-  font-family: "Roboto";
+  font-family: "JetBrains Mono", monospace;
 }
 main p {
   text-align: center;
+  font-family: "JetBrains Mono", monospace;
 }
 .image-container {
   display: flex;
@@ -55,11 +56,11 @@ main p {
   padding-bottom: 30px;
   transition: box-shadow 450ms ease-in-out;
   cursor: pointer;
-  display: flex;
 }
 .product-items:hover {
   box-shadow: 2px 2px 5px gray;
 }
 .product-items img {
   border-radius: 5px;
+  width: 100%;
 }
