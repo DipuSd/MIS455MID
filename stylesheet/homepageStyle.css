@@ -21,3 +21,9 @@ nav {
 nav a {
   text-decoration: none;
 }
+footer {
+  margin-top: 20px;
+  background-color: green;
+  padding: 5px;
+  text-align: right;
+}
