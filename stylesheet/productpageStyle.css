@@ -43,3 +43,21 @@ main p {
   background-color: grey;
   color: white;
 }
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product-items {
+  background-color: gray;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 30px;
+  transition: box-shadow 450ms ease-in-out;
+  cursor: pointer;
+}
+.product-items:hover {
+  box-shadow: 2px 2px 5px gray;
+}
+.product-items img {
+  border-radius: 5px;
+}
