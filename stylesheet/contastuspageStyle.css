@@ -44,6 +44,7 @@ main h1 {
   background-color: gray;
   border: 5px solid black;
   border-radius: 5px;
+  margin: 10px;
 }
 .img-holder img {
   border-right: 5px solid black;
