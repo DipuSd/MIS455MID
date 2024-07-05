@@ -54,7 +54,8 @@ main p {
   padding: 10px;
   padding-bottom: 30px;
   transition: box-shadow 450ms ease-in-out;
-  cursor: pointergi;
+  cursor: pointer;
+  display: flex;
 }
 .product-items:hover {
   box-shadow: 2px 2px 5px gray;
