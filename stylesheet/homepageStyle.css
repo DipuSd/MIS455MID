@@ -24,11 +24,13 @@ nav a {
 footer {
   margin-top: 20px;
   background-color: green;
-  padding: 5px;
-  text-align: right;
+  padding: 2px;
+  text-align: center;
 }
 main h1 {
   text-align: center;
+  background-color: rgba(72, 72, 72, 0.3);
+  font-family: "Roboto";
 }
 main p {
   text-align: center;
@@ -36,4 +38,8 @@ main p {
 .image-container {
   display: flex;
   justify-content: center;
+}
+.current {
+  background-color: grey;
+  color: white;
 }
